@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="6.0+"
+  codebase="http://www.multiplehypothesis.com/jnlp"
+  href="http://www.multiplehypothesis.com/jnlp/SimpleTracker.jnlp">
+  <information>
+    <title>Simple Tracker Example Application</title>
+    <vendor>David Antunes</vendor>
+    <homepage href="http://www.multiplehypothesis.com/"/>
+    <description>An example application for the MHL.</description>
+    <description kind="short">An example application for the MHL.</description>
+    <offline-allowed/> 
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
+    <jar href="http://www.multiplehypothesis.com/jnlp/SimpleTrackerFull.jar"/>
+    <property name="jnlp" value="true"/> 
+  </resources>
+  <application-desc main-class="com.multiplehypothesis.simpletracker.Main"/>
+</jnlp>
